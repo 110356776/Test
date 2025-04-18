@@ -1,7 +1,7 @@
 #!/bin/bash
 export UUID=${UUID:-'0ff0350e-c001-495b-a6a1-13b962590375'}
-export ARGO_DOMAIN=${ARGO_DOMAIN:-'deepnote.guandyue.ip-ddns.com'}          # 固定隧道域名，留空即启用临时隧道
-export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiODVhOGVmOTM0NjY5NDAyYjgwYzljNDk0NTA5Mjg4YWUiLCJ0IjoiOTlmMjI3YmUtM2IyNC00ZDE4LWExMTEtMzRhOGMyZWZiMDhkIiwicyI6IlkyVXhPR0ZoTWpNdE0yWXlZUzAwT1dFM0xUZzRaRE10WmpJNE5HWTJNbUkwWXpObCJ9'}             # 固定隧道json或token，留空即启用临时隧道，json可在 https://fscarmen.cloudflare.now.cc 获取
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'google.guandyue.ip-ddns.com'}          # 固定隧道域名，留空即启用临时隧道
+export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiODVhOGVmOTM0NjY5NDAyYjgwYzljNDk0NTA5Mjg4YWUiLCJ0IjoiYTFkODAyZDctNDYwNC00NjkyLTkxZmQtM2E1YTk5Nzc0OTJjIiwicyI6Ik1URmlaVFZqTkRZdFlUWXdNaTAwTldGa0xXRmlZbVV0TTJKbU9URm1NakV3TURFeCJ9'}             # 固定隧道json或token，留空即启用临时隧道，json可在 https://fscarmen.cloudflare.now.cc 获取
 export CFIP=${CFIP:-'www.epicgames.com'}         # 优选域名或优选ip
 export CFPORT=${CFPORT:-'443'}               # 优选域名或优选ip对应端口
 export NAME=${NAME:-'Vls'}                 # 节点名称
